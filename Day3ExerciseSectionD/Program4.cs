@@ -24,7 +24,7 @@ namespace Day3ExerciseSectionD
                 return;
             }
 
-            while (Math.Abs((G*G) - num) >= 0.00001)
+            while (Math.Abs((G*G) - num) >= 0.0001)
             {
                 G = (G + (num / G)) / 2;
             }           

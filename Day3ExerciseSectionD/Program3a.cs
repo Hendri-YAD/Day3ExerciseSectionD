@@ -11,9 +11,9 @@ namespace Day3ExerciseSectionD
         static void Main(string[] args)
         {
             Random rnd = new Random();
-            int magicNum = rnd.Next(1, 9);
+            int magicNum = rnd.Next(-1, 9) + 1;
             int guess, count=0;
-
+            
             do
             {
                 count++;
